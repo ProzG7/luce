@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    height: 150vh;
+}
+
+.secao-logo{
+    margin-left: 0%;
+    min-width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 85vh;
+   
+   
+}
+.img-logo{
+    min-width: 106%;    
+}
+
+.container {
+    min-width: 104%;
+    margin-left:0.8% ;
+    margin-top: -30%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card1 {
+    flex: 1 1 200px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card1:hover{
+    transform: scale(1.2);
+}
+
+
+.card2 {
+    flex: 1 1 200px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card2:hover{
+    transform: scale(1.2);
+}
+
+
+.card3 {
+    flex: 1 1 200px;
+ 
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card3:hover:hover{
+    transform: scale(1.2);
+}
+
+.card4 {
+    flex: 1 1 200px;
+
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card4:hover{
+    transform: scale(1.2);
+}
+
+.card5 {
+    flex: 1 1 200px;
+
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card5:hover{
+    transform: scale(1.2);
+}
+
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .secao-logo {
+        max-width: 1%;
+
+    }
+    .img-logo{
+        max-width: 20%;;
+    }
+}
