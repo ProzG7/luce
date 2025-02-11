@@ -6,6 +6,25 @@ body {
     height: 150vh;
 }
 
+.voltar{
+    color: white;
+    text-decoration: none;
+    background-color:  #001F41;
+    padding: 10px; /*distância entre a letra e as bordas*/
+    border: none; /*sem borda*/
+    border-radius: 10px; /*arredondamento das bordas*/
+    cursor: pointer; /*para o cursor do mouse virar a "mãozinha"*/
+    position: relative;
+    left: 2%;
+    bottom: 50%;
+    transition: background-color 1.5s; /*transição de uma cor para outra*/
+    transition: color 1.5s;
+}
+.voltar:hover{
+    background-color: white; /*cor final*/
+    color:  #001F41;
+
+}
 .secao-logo{
     margin-left: 0%;
     min-width: 100%;
@@ -87,9 +106,14 @@ body {
     transform: scale(1.2);
 }
 
+.container2{
+    margin-top: 900px;
+    display: flex;
+}
+
 .card5 {
     flex: 1 1 200px;
-
+    margin-top: 200000px;
     margin: 10px;
     padding: 20px;
     border-radius: 8px;
@@ -101,6 +125,7 @@ body {
 .card5:hover{
     transform: scale(1.2);
 }
+
 
 footer {
     background-color: #001F41;
@@ -177,14 +202,4 @@ footer {
         max-height: 300px;
     }
 
-    footer {
-        background-color: #001F41;
-        color: white;
-        text-align: center;
-        padding: 10px;
-        position:absolute;
-        bottom:-12%;
-        width: 100%;
-    }
-    
 }
